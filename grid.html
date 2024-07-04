@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .text{
+            text-align: center;
+            justify-content: center;
+            margin-top: 85px;
+        }
+        .parent{
+            height:auto;
+            width: auto;
+            display: grid;
+            grid-template-columns: repeat(3,300px);
+            text-align: center;
+            justify-content: center;
+
+
+
+        }
+        .child{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            margin: 20px;
+
+
+        }
+        .box1{
+            height: 200px;
+            width: 200px;
+            border-radius: 25px ;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            justify-self: center;
+            margin-top: 50px;
+            background-color: rgb(234, 139, 13);
+        }
+        .box2{
+            text-align: center;
+            justify-self: center;
+            padding: 20px;
+          height: 520px;
+          width: 230px;
+         border-radius: 25px;
+         background-image: url("household.jpg");
+         background-position: center;
+         background-size: cover;
+         grid-row-start: 1;
+         grid-row-end: 3;
+
+
+
+        }
+      .box3{
+     padding: 20px;
+    height: 220px;
+     width: 210px;
+        justify-self: center;         border-radius: 25px;
+        background-image: url("https://media.gettyimages.com/id/1145840259/vector/home-flat-icon-pixel-perfect-for-mobile-and-web.jpg?s=612x612&w=gi&k=20&c=jSGcLEJXUtHvyY5m5E1KecDOJqULmqWQ3qzOfoeqn1Y=");
+        background-position: center;
+        background-size: cover;
+
+      }
+      .box4{
+        padding: 20px;
+        padding: 20px;
+        height: 220px;
+         width: 210px;
+            justify-self: center;
+             border-radius: 25px;
+             background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsQdCSMK5YdSdyJrIdv-nUKSKNU2C_FeCvwbTzYhxtzwKGIaY7J2raWHxBEA&s");
+             background-size: cover;
+             background-position: center;
+      }
+      .box6{
+        height: 200px;
+        width: 200px;
+        border-radius: 25px ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        justify-self: center;
+        margin-top: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        background-color: rgb(21, 179, 52);
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="text">
+        <h1>HOUSEHOLD WEBSITE</h1>
+        <p>Lorem ipsum dolor sit amet consectetur  <br> adipisicing elit. Pariatur a quasi  illum  veniam laboriosam <br> rem sed adipisci eveniet  fuga  ratione praesentium similique velit in repudiandae eaque, eos delectus deserunt nam.</p>
+    </div>
+    <div class="parent">
+        <div class="box1 child">
+            <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, sed quasi ratione necessitatibus impedit ad et quidem explicabo cum tempora distinctio enim voluptatum aperiam ab aspernatur quisquam quae reiciendis beatae.</h5>
+
+        </div>
+        <div class="box2 child"></div>
+        <div class="box3 child"></div>
+        <div class="box4 child"></div>
+        <div class="box6 child">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolore blanditiis perferendis, esse eligendi </p>
+        </div>
+
+
+    </div>
+</body>
+</html>
